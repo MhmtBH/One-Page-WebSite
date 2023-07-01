@@ -1,4 +1,4 @@
-# One-Page-WebSite
+# One Page WebSite
 
 Hi, this site is a one-page ☕coffee shop☕ site.
 
