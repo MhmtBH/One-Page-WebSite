@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "outfit";
+    src: url(Assets/Fonts/Outfit-Light.ttf);
+}
+@font-face {
+    font-family: "outfit-ExtraBold";
+    src: url(Assets/Fonts/Outfit-ExtraBold.ttf);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(143, 76, 21);
+    border-radius: 10vh;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 76, 21);
+    border-radius: 10vh;
+  }
+
+body{
+    background-color: #F1DEC9;
+
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/*Page*/
+
+div.container{
+    width: 100%;
+    height: 300vh;
+}
+
+
+/*Page First Side*/
+
+div.containerFirst{
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*PageFirst Left Side*/
+
+div.firstLeft{
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.logoHolder{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+/*PageFirst Left Side Model Viewer*/
+
+div.logoHolder img{
+    width: 45%;
+    height: 45%;
+}
+
+/*PageFirst Right Side*/
+
+div.firstRight{
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*PageFirst Right Side Cafe Name*/
+
+p.cafeName{
+    margin-right: 20vh;
+    color: rgb(143, 76, 21);
+    font-size: 140px;
+    font-family: "outfit-ExtraBold", sans-serif;
+    word-spacing: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page Second Side*/
+
+div.containerSecond{
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/*Our Most Popular Coffees*/
+
+p.containerSecondTitle{
+    margin: 0px 40vh 5vh 40vh;
+    color: rgb(143, 76, 21);
+    font-size: 70px;
+    font-family: "outfit-ExtraBold", sans-serif;
+    word-spacing: 5vh;
+    letter-spacing: 0.5vh;
+}
+
+/*Card Holder Div*/
+
+div.cardHolder{
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/*Card*/
+
+div.card{
+    margin: 5vh;
+    width: 45vh;
+    height: 60vh;
+
+    background: linear-gradient(180deg, rgb(143, 76, 21) 0%, rgba(254,173,102,1) 100%);
+
+    border-radius: 2vh;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.438);
+}
+
+/*Card Texts*/
+
+div.cardTitle{
+    width: 40vh;
+    height: 15vh;
+    border-radius: 2vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    color: white;
+    font-size: 40px;
+    font-family: "outfit-ExtraBold", sans-serif;
+}
+
+/*Card Images Or Models*/
+
+div.cardImage{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 2vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+model-viewer{
+    width: 45vh;
+    height: 45vh;
+}
+
+
+
+
+
+
+
+
+
+
+div.containerThird{
+    margin-top: 300px;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #F1DEC9;
+
+    border-top: 3px solid rgb(143, 76, 21);
+
+    display: flex;
+    float: left;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+div.infoCard{
+    
+    margin: 5vh;
+    width: 65vh;
+    height: 90vh;
+
+    background: linear-gradient(180deg, rgb(143, 76, 21) 0%, rgba(254,173,102,1) 100%);
+
+    border-radius: 2vh;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.185);
+}
+div.infoCard p.Header{
+    margin: 0;
+    color: #F1DEC9;
+    font-size: 60px;
+    font-family: "outfit-ExtraBold", sans-serif;
+}
+div.infoCard p.Text{
+    margin-top: 2;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    color: #F1DEC9;
+    font-size: 25px;
+    font-family: "outfit", sans-serif;
+}
+
+div.contactCard{
+    width: 125vh;
+    height: 90vh;
+
+    background: linear-gradient(180deg, rgb(201, 123, 59) 0%, rgb(255, 195, 143) 100%);
+
+    border-radius: 2vh;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.185);
+}
+div.contactCard p.Header{
+    margin: 0;
+    color: #F1DEC9;
+    font-size: 60px;
+    font-family: "outfit-ExtraBold", sans-serif;
+}
+div.contactDiv{
+    display: grid;
+
+    width: 115vh;
+    height: 70vh;
+}
+div.contactDiv p{
+    margin: 1vh;
+    color: #F1DEC9;
+    font-size: 30px;
+    font-family: "outfit", sans-serif;
+}
+iframe{
+    width: 1075px;
+    height: 550px;
+    border-radius: 5vh;
+}

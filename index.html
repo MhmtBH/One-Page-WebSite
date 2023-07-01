@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js" progtrdd></script>
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="containerFirst">
+            <div class="firstLeft">
+                <div class="logoHolder">
+                    <img src="Assets/Images/logo.png" alt="">
+                </div>
+            </div>
+            <div class="firstRight">
+                <p class="cafeName">
+                    CAFE HOT
+                </p>
+            </div>
+        </div>
+
+        <div class="containerSecond">
+            <p class="containerSecondTitle">
+                Our Most Popular Coffees
+            </p>
+            <div class="cardHolder">
+
+                <div class="card" data-tilt data-tilt-reverse="true" data-tilt-max="10">
+                    <script src="vanilla-tilt.js"></script>
+                    <div class="cardTitle">
+                        <p>
+                            Turkish Coffee
+                        </p>
+                    </div>
+                    <div class="cardImage">
+                        <model-viewer src="Assets/Models/CoffeeCup.glb" disable-zoom disable-tap shadow-intensity="1" camera-controls touch-action="pan-y"
+                        camera-target="0.2m 1m 0m"
+                        camera-orbit="0deg 50deg"></model-viewer>
+                    </div>
+                </div>
+                <div class="card" data-tilt data-tilt-reverse="true" data-tilt-max="10">
+                    <script src="vanilla-tilt.js"></script>
+                    <div class="cardTitle">
+                        <p>
+                            Latte Macchiato
+                        </p>
+                    </div>
+                    <div class="cardImage">
+                        <model-viewer src="Assets/Models/CoffeeCup.glb" disable-zoom disable-tap shadow-intensity="1" camera-controls touch-action="pan-y"
+                        camera-target="0.2m 1m 0m"
+                        camera-orbit="0deg 50deg"></model-viewer>
+                    </div>
+                </div>
+                <div class="card" data-tilt data-tilt-reverse="true" data-tilt-max="10">
+                    <script src="vanilla-tilt.js"></script>
+                    <div class="cardTitle">
+                        <p>
+                            Espresso
+                        </p>
+                    </div>
+                    <div class="cardImage">
+                        <model-viewer src="Assets/Models/CoffeeCup.glb" disable-zoom disable-tap shadow-intensity="1" camera-controls touch-action="pan-y"
+                        camera-target="0.2m 1m 0m"
+                        camera-orbit="0deg 50deg"></model-viewer>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div class="containerThird">
+            <div class="infoCard" data-tilt data-tilt-reverse="true" data-tilt-max="1">
+                <script src="vanilla-tilt.js"></script>
+                <div class="infoCardTitle">
+                    <p class="Header">
+                        Who We Are
+                    </p>
+                    <p class="Text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel tellus euismod enim facilisis malesuada quis vitae lacus. Ut consequat gravida enim, porta hendrerit urna dignissim sed. Nam molestie blandit nulla in sodales. Praesent aliquet sollicitudin accumsan. Nullam euismod lorem turpis, pharetra aliquet nibh aliquam vel. Donec risus mauris, aliquam id nisi id, mattis maximus ligula. Phasellus mattis tempor nisl vel faucibus. Proin suscipit purus lectus, non blandit tortor malesuada eleifend. Proin maximus porta urna, ut aliquet augue malesuada non. Proin quis egestas justo, eu sagittis neque. Phasellus vitae malesuada nisi, vel euismod massa. Cras fringilla metus non aliquam sodales. Nulla ornare risus sit amet odio efficitur, a tincidunt risus malesuada. Nullam vulputate sit amet nisl molestie semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis vel dignissim nisl.
+                    </p>
+                </div>  
+            </div>
+
+            <div class="contactCard" data-tilt data-tilt-reverse="true" data-tilt-max="1">
+                <script src="vanilla-tilt.js"></script>
+                <div class="infoCardTitle">
+                    <p class="Header">
+                        Contact
+                    </p>
+                    <div class="contactDiv">
+                        <p>
+                            Give us a call : xxxxxxxxxx
+                        </p>
+                        <p>
+                            Send us a mail : xxxxxxxxxx
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34742997.3005386!2d-2.9016015360917238!3d57.89388888664503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1688216406170!5m2!1str!2str" width="1075" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
